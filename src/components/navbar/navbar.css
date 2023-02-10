@@ -1,0 +1,146 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  position: absolute;
+  width: 99.35px;
+  height: 56px;
+  left: 70px;
+  top: 40px;
+}
+
+.logo img {
+  width: 5.5rem;
+}
+
+.nav-titles {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+
+  position: absolute;
+  width: 675px;
+  height: 22px;
+  left: 255px;
+  top: 57px;
+}
+
+.nav-titles span {
+  width: 132px;
+  height: 22px;
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  /* or 22px */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: capitalize;
+
+  color: #3a3a3a;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.log-button {
+    position: absolute;
+    width: 195px;
+    height: 54px;
+    left: 1300px;
+    top: 2px;
+}
+
+.login {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 8px;
+  gap: 10px;
+
+  position: absolute;
+  width: 58px;
+  height: 38px;
+  right: 207px;
+  top: 49px;
+}
+
+.login span {
+  width: 42px;
+  height: 22px;
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  /* or 22px */
+
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+
+  /* primary-color */
+
+  color: #3282ad;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.signup {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 32px;
+  gap: 10px;
+
+  position: absolute;
+  width: 65px;
+  height: 25px;
+  right: 70px;
+  top: 41px;
+
+  background: rgba(5, 100, 153, 0.8);
+  border-radius: 44px;
+}
+
+.signup span {
+  width: 59px;
+  height: 22px;
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  /* or 22px */
+
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
