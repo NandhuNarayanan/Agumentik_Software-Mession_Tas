@@ -5,6 +5,13 @@ import Map from '../../assets/image/map-3.png'
 import Layer from '../../assets/image/Layer 1.png'
 import { MdFlight } from 'react-icons/md'
 import {IoTrainSharp} from 'react-icons/io5'
+import {IoLocationSharp} from 'react-icons/io5'
+import Resort from '../../assets/image/resort.jpeg'
+import Hill from '../../assets/image/hill.jpeg'
+import Booking_Flight from '../find-flight/Booking_Flight'
+import Packege from '../packege/Packege'
+
+
 
 function Banner() {
   return (
@@ -57,6 +64,34 @@ function Banner() {
             <div className="train-frame">
                 <IoTrainSharp style={{fontSize:'25px' , color:'#42A8C3'}}/>
             </div>
+            <div className="card">
+              <div className="card-sqr">
+              <img src={Resort} alt="Resort" />
+              <div className='content'>
+              <span>Le Pirate Hotel</span>
+                <div className='location'>
+                  <IoLocationSharp style={{ color:'#42A8C3' }}/>
+                  Flores, Indonesia
+                  </div>
+              </div>
+            </div>
+            </div>
+
+            <div className="card2">
+            <div className="card2-sqr2">
+              <img src={Hill} alt="Hill" />
+              <div className='content2'>
+              <span>Explore Labuan Bajo</span>
+                <div className='location2'>
+                  <IoLocationSharp style={{ color:'#42A8C3' }}/>
+                  NTT, Indonesua
+                  </div>
+              </div>
+            </div>
+            </div>
+        </div>
+        <div>
+          <Booking_Flight/>
         </div>
       </div>
     </>

@@ -31,15 +31,12 @@
 }
 
 .nav-titles span {
-  width: 132px;
-  height: 22px;
 
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 140%;
-  /* or 22px */
 
   display: flex;
   align-items: center;
@@ -48,7 +45,6 @@
 
   color: #3a3a3a;
 
-  /* Inside auto layout */
 
   flex: none;
   order: 0;
@@ -86,17 +82,14 @@
   font-weight: 600;
   font-size: 16px;
   line-height: 140%;
-  /* or 22px */
 
   display: flex;
   align-items: center;
   text-transform: capitalize;
 
-  /* primary-color */
 
   color: #3282ad;
 
-  /* Inside auto layout */
 
   flex: none;
   order: 0;
@@ -130,7 +123,6 @@
   font-weight: 600;
   font-size: 16px;
   line-height: 140%;
-  /* or 22px */
 
   display: flex;
   align-items: center;
@@ -138,7 +130,6 @@
 
   color: #ffffff;
 
-  /* Inside auto layout */
 
   flex: none;
   order: 0;

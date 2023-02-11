@@ -13,10 +13,10 @@ function NavBar() {
     <div className="nav-titles">
         <span>Find Reservations</span>
         <span>Packages
-        <RiArrowDropDownLine style={{fontSize:'30px'}}/>
+        <RiArrowDropDownLine style={{fontSize:'25px'}}/>
         </span>
         <span>About Lakshadweep
-            <RiArrowDropDownLine style={{fontSize:'50px'}}/>
+            <RiArrowDropDownLine style={{fontSize:'25px'}}/>
         </span>
         <span>About Us</span>
         <span>Gol</span>
